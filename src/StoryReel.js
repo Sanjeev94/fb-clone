@@ -5,6 +5,8 @@ import a from './a.png';
 import story1 from './a1.png';
 import story2 from './a2.png';
 import story3 from './a3.png';
+import story4 from './a4.png';
+import story5 from './a5.png';
 
 
 function StoryReel() {
@@ -25,6 +27,18 @@ function StoryReel() {
             image={story3} 
             profileSrc={a}
             title="Test 2"
+            />
+
+            <Story
+            image={story4} 
+            profileSrc={a}
+            title="Shri Ganesh"
+            />
+
+           <Story
+            image={story5} 
+            profileSrc={a}
+            title="Shri Hanuman"
             />
 
 
