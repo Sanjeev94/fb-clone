@@ -14,6 +14,9 @@ function MessageSender() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        // some clever db stuff 
+        setInput('');
+        setImageUrl('');
     }
     return (
         <div className="messageSender">
