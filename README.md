@@ -1,3 +1,20 @@
+Tech used facebook clone build
+ 
+ # REact + React HOOKS
+ # React comtext API -> Redux Pattern 
+ # Material UI
+ # FLEXBOX
+ # Firebase's Firestore realtime db
+ # Firebase Hosting
+ # Firebase Google Authentication (FULL LOGIN!)
+ # REact Flip move
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
