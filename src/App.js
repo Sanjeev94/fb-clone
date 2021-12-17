@@ -4,13 +4,14 @@ import Header from './Header';
 import Sidebar from './Sidebar';
 import Feed from './Feed';
 import Widgets from './Widgets';
+import Login from './Login';
 
 function App() {
-  const user = "Sanjeev";
+  const user = null;
   return (
     <div className="app">
       {!user ? (
-        <h1>Login</h1>
+        <Login />
       ) : (
         <>
         <Header />
