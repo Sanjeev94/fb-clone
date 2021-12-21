@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import './MessageSender.css';
 import {Avatar} from '@material-ui/core';
 import a from './a.png';
