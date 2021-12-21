@@ -9,14 +9,16 @@ import ChatIcon from '@material-ui/icons/Chat';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import {ExpandMoreOutlined} from '@material-ui/icons';
-import image from './a.png';
+import { useStateValue } from "./StateProvider";
+// import image from './a.png';
 
 
 
 function Sidebar() {
+    const [{ user }, dispatch] = useStateValue();
     return (
         <div className="sidebar">
-            <SidebarRow src={image} title="Sanjeev" />
+            <SidebarRow src={user.photoURL} title={user.displayName} />
             
             <SidebarRow Icon={LocalHospitalIcon} title="Covid-19 Info Center" />
             <SidebarRow Icon={EmojiFlagsIcon} title="Pages" />
