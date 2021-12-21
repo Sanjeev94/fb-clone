@@ -8,7 +8,8 @@ Tech used facebook clone build
  # Firebase Hosting
  # Firebase Google Authentication (FULL LOGIN!)
  # REact Flip move
-<img src="ReadMeImages/fb-clone,png">
+<img src="ReadmeImages/fb-clone.png">
+<img src="ReadmeImages/fb-clone_login.png">
 
 
 
